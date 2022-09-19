@@ -25,7 +25,6 @@ const VideoDetail = () => {
 
   },[id]);
 
-  console.log("hello")
 
   if(!videoDetail?.snippet) return <Loader />;
 
